@@ -1,16 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+  font-family: poppins;
+}
+
+.heading{
+  text-align:center;
+  color:white;
+  font-size: 3rem;
+  margin-top: 6rem;
+  left: -13px;
+  position: relative;
+}
+
 .clock-face{
-  top:31%;
-  left:40%;
   position:relative;
-  height:100px;
-  width:100px;
+  height:300px;
+  width:300px;
   border:5px solid white;
   border-radius : 50%;
-  margin: auto;
+  margin: 3rem auto;
 }
 .hand{
   width:40%;
-  left:5%;
+  left:15%;
   position:absolute;
   color:black;
   top:48.5%;
@@ -20,18 +33,18 @@
 }
 .minutes-hand{
   width:30%;
-  left:17px;
-  border:1px solid white;
+  left:51px;
+  border:2px solid white;
 }
 .hours-hand{
   width:20%;
-  left:25px;
-  border:2px solid white;
+  left:77px;
+  border:4px solid white;
 }
 .seconds-hand{
-  left:8px;
-  border:.5px solid white;
+  left:24px;
+  border:1px solid white;
 }
 body{
-  background-color: #332119;
+  background-color:#262929;
 }

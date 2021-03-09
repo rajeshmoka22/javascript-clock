@@ -52,11 +52,11 @@ body{
 }
 .hours-hand{
   width:20%;
-  left:82px;
+  left:84px;
   border:4px solid var(--handColor);
 }
 .seconds-hand{
-  left:28px;
+  left:27px;
   border:1px solid var(--handColor);
 }
 body{

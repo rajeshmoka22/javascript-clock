@@ -59,9 +59,6 @@ body{
   left:27px;
   border:1px solid var(--handColor);
 }
-body{
-  background-color:#f1eeea;
-}
 
 .centerdot{
   height: 20px;

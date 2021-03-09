@@ -15,7 +15,7 @@ function setDate(){
   secondsHand.style.transform = "rotate("+((seconds/60*360)+90)+"deg)";
   minutesHand.style.transform = "rotate("+((minutes/60*360)+90)+"deg)";
   hoursHand.style.transform = "rotate("+((hours/12*360)+90)+"deg)";
-  hoursEle.innerText = hours;
-  minutesEle.innerText = minutes;
+  hoursEle.innerText = hours > 10 ? hours : "0"+hours;
+  minutesEle.innerText = minutes > 10 ? minutes : "0"+minutes;
   secondsEle.innerText = seconds > 10 ? seconds : "0"+seconds;
 }

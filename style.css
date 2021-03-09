@@ -4,13 +4,19 @@
   --handColor: #33426d;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 body{
   font-family: poppins;
+  min-height: 100vh;
+  background: #607d8bd9;
 }
 
 .heading{
   text-align:center;
-  color:#f75478;
+  color:#fff;
   font-size: 3rem;
   margin-top: 2rem;
   left: -13px;

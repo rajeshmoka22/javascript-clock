@@ -64,8 +64,8 @@ body{
 }
 
 .centerdot{
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
   border-radius: 50%;
   background-color: #fbd84d;
   position:absolute;

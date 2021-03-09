@@ -1,6 +1,9 @@
+<!DOCTYPE html>
 <html>
 	<head>
-    <meta type="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A simple javascript analog clock">
     <title>Clock</title>
     <script src="./script.js" defer></script>
@@ -8,10 +11,26 @@
   </head>
   <body>
     <h1 class="heading">Clock</h1>
-		<div class="clock-face">
-			<div class="hours-hand hand"></div>
-			<div class="minutes-hand hand"></div>
-			<div class="seconds-hand hand"></div>
-		</div>
+    <div class="container">
+      <div class="clock-face">
+        <div class="centerdot"></div>
+        <div class="hours-hand hand"></div>
+        <div class="minutes-hand hand"></div>
+        <div class="seconds-hand hand"></div>
+        <div class="bubble"></div>
+        <div class="twelve tick"></div>
+        <div class="three tick"></div>
+        <div class="six tick"></div>
+        <div class="nine tick"></div>
+      </div>
+    </div>
+    <div class="digital">
+      <div class="hours"></div>
+      <div class="colon">:</div>
+      <div class="minutes"></div>
+      <div class="colon">:</div>
+      <div class="seconds"></div>
+      <div class="bubble2"></div>
+    </div>
   </body>
 </html>
